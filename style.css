@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    border: 2px solid paleturquoise;
+    border-radius: 30px;
+}
