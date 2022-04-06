@@ -1,7 +1,11 @@
 *{
     box-sizing: border-box;
 }
-
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+   justify-items: center;
+}
 .board{
     display: grid;
     grid-template-columns: repeat(3,auto);
